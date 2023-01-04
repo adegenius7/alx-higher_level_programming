@@ -2,4 +2,5 @@
 def uppercase(str):
     for i in str:
         if ord(i) >= 65 and ord(i) <= 90:
+            i = chr(i)
             print("{}".format(i), end="")
