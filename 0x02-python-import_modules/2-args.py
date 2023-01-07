@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 if __name__ == '__main__':
     '''counting the number of args '''
     import sys
+
     arg = sys.argv
     length = len(arg) - 1
     if length == 0:
